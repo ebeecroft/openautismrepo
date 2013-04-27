@@ -1,0 +1,5 @@
+The software directory contains all the software and source code to make the Open Autism Software activities run.
+
+The asd folder contains the source code (.py files), and any resource files required for individual activities.  It contains a directory for every activity.  You can change the source code of the activities in a regular text editor, and then run the modified version by double clicking the batch files in the open autism software root directory.  For help understanding the source code and documentation on programming with pymt (the toolkit used to create the activities), see http://pymt.eu/wiki
+
+The pymt folder contains a portable version of pymt 0.5.  The portable version includes the pymt (Python MultiTouch) library and source code, as well as any dependencies in addition to a copy of Python 2.6 that will be used regardless of any other versions of Python you have installed.  Yuo can use pymt.bat in the pymt folder like the regular python.exe interpreter to install additional libraries for use with this pymt installation.  For more information see the pymt documentation at http://pymt.eu/wiki
